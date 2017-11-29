@@ -4,6 +4,15 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
+    Created on : Nov 28, 2017, 6:06:08 PM
+    Author     : kb
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
     Created on : Nov 23, 2017, 10:58:16 AM
     Author     : kb
 */
@@ -16,8 +25,22 @@ body {
     background-size: cover;
 }
 
+   @media only screen and (min-width: 360) and (max-width: 640) {  
+    .imageMobileFormat{
+     margin-top:-10px;
+    margin-bottom: 29px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    width: 10px;
+    float:centre;
+        
+    }
+   }
 
-
+   .img-format6{
+    width: 50%;
+    margin-left: 25%;
+   }
 
 
 .headerfontsize{
@@ -29,9 +52,7 @@ body {
     background-color: #f99907;
 }
 
-.img-class{
-    margin-left: 95px;
-}
+
 .div-background{
     background: url(http://i.dailymail.co.uk/i/pix/2012/08/14/article-0-148A2387000005DC-695_964x641.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -53,6 +74,13 @@ body {
     background-color: #f99907;
     color: black;
 }
+
+.blockquotes {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 0px;
+}
 .img-format2{
     margin-top:-10px;
     margin-bottom: 29px;
@@ -63,12 +91,8 @@ body {
     float:centre;
 }
 
-.blockquotes {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 0px;
-}
+     
+
 
 .img-format3 {
     margin-top: 86px;
@@ -76,8 +100,7 @@ body {
     /* padding-bottom: 20px; */
     /* list-style-type: none; */
     float: centre;
-    height: 300px;
-    width: 300px;
+    width: 250px;
     height: 268px;
 }
 
@@ -89,7 +112,7 @@ body {
     /* list-style-type: none; */
     float: centre;
     height: 300px;
-    width: 300px;
+    width: 249px;
 }
 
 .img-format5 {
@@ -99,11 +122,12 @@ body {
     /* list-style-type: none; */
     float: centre;
     height: 300px;
-    width: 300px;
+    width: 243px;
 }
 
 .img-class {
-    margin-left: 4px;
+    margin-left: -3px;
+    border-radius: .25em;
 }
 
 
@@ -145,6 +169,20 @@ body {
     border-radius: .25em;
 }
 
+/*read more css*/
+#profile-description {
+    width: 690px; margin-top: 50px; position:relative;
+}
+#profile-description .text {
+    width: 660px; margin-bottom: 5px; color: #777; padding: 0 15px; position:relative; font-family: Arial; font-size: 14px; display: block;
+}
+
+
+
+#div1{
+    margin-top: 31px;
+}
+
 /* Other style */ 
 body {
     padding: 2%;
@@ -169,33 +207,6 @@ body {
     cursor: pointer;
 }
 
-#slideshow {
-    margin: 80px auto;
-    position: relative;
-    width: 240px;
-    height: 240px;
-    padding: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-
-#slideshow > div {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-}
-
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
-.mySlides {display:none}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
 
 /* Caption text */
 .text {
@@ -299,3 +310,4 @@ p {
 .paragraph2{
     color: black;
 }
+
